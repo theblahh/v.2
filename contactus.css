@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+body{
+    background-color: #806731ad;
+}
+header{
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    font-size: 25px;
+}
+nav h1{
+    display: inline;
+    font-size: 25px;
+}
+nav h1 a:hover{
+    transform: scale(1.1);
+    color: white;
+}
+header nav a {
+    color: black;
+    padding: 20px;
+
+}
+#contactus{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5px;
+    color: #333;
+
+}
+#contactform{
+    display: flex;
+    justify-content: center;
+    border: 2px solid;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: #806731ad;
+    border-radius: 10px;
+}
+.form-group {
+    margin-bottom: 30px;
+  margin-top: 30px;
+}
+label {
+  display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+    font-size: 0.95em;
+}
+
+ input, textarea  {
+    width: 100%;
+    padding: 10px 60px;
+    border: 2px solid #e1e5e9;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+.error {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none; 
+}
+
+.error.show {
+    display: block; 
+}
+
+.input-error {
+    border-color: #e74c3c ; 
+}
+#submitbtn{
+    width: 100%;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 14px;
+    background-color: beige;
+}

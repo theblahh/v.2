@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+      background-color: #806731ad;
+}
+header{
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    font-size: 30px;
+}
+nav h1{
+    display: inline;
+}
+nav h1 a:hover{
+    color:white;
+    transform: scale(1.1);
+}
+header nav a {
+    color: black;
+    padding: 20px;
+
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+    animation: fadeIn 3s ease-in-out;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.home-img img{
+    width: 20rem;
+    border-radius: 360px;
+    padding: 80px;
+}
+.home-content h1{
+    font-size: 30px;
+
+}
+.home-content p {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    color: #000000;
+}
+.btn {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 14px;
+    transition: transform .3s ease-in-out;
+}
+
+.btn a{
+    color: #000000;
+}
+.btn:hover {
+    transform: scale(1.1);
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(102, 74, 22, 0.658);
+    cursor: pointer;}
+span {
+    color:white;
+    font-weight: bold;
+}
+footer {
+    align-items: center;
+}
+@media (max-width: 780px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    header {
+        margin: 5px;
+        padding: 5px;
+
+    }
+    .logo{
+        font-size: 15px;
+    }
+    nav h1 a{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .home{
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        margin-right: 5px;  
+    }
+    .home-content h1{
+        font-size: 15px;
+    }
+    .home-img img{
+        width: 10rem;
+    }
+
+    .home-content {
+        font-size: 10px;
+    }
+
+    .btn {
+        font-size: 10px;
+        padding: 5px;
+    }
+}
